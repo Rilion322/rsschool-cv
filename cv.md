@@ -46,11 +46,3 @@ console.log(result);
 ## English ##
 ====
 **B1** (Had a 1 year course of Streamline language school)
-
-
-
-
-
-
-
-
