@@ -2,11 +2,11 @@
 
 ## Contacts ##
 
-+ **Location** Minsk, Belarus
-+ **Phone** +375292405190
-+ **Email** max200289453@gmail.com
-+ **Github** [Rilion322](https://github.com/Rilion322)
-+ **Discord nickname on rs-school** Maksim Dubovik(Rilion322)
++ **Location:** Minsk, Belarus
++ **Phone:** +375292405190
++ **Email:** max200289453@gmail.com
++ **Github:** [Rilion322](https://github.com/Rilion322)
++ **Discord nickname on rs-school:** Maksim Dubovik(Rilion322)
 
 ## About me ##
 
