@@ -1,4 +1,30 @@
-html{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+@font-face {
+    font-family: Roboto;
+    src: url(assets/fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: BonaNovaSC ;
+    src: url(assets/fonts/BonaNovaSC-Bold.ttf);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
