@@ -79,6 +79,14 @@ body {
     color: red;
 }
 
+a {
+    text-decoration: none;
+    color:#a98804;
+}
+
+a:hover {
+    color:red;
+}
 
 
 
