@@ -88,6 +88,7 @@ a:hover {
     color:red;
 }
 
-
-
-
+.code-example {
+    background-color: rgb(187, 186, 186);
+    color: black;
+}
