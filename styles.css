@@ -8,23 +8,78 @@
     src: url(assets/fonts/BonaNovaSC-Bold.ttf);
 }
 
-*{
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+
+* {
     box-sizing: border-box;
 }
 
-body{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+html {
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
 }
 
-.container{
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color: rgb(218, 232, 25);
+    background-color: rgb(61, 59, 59);
+    margin: 0;
+}
+
+.container {
     max-width: 1440px;
     margin: 0 auto;
 }
 
-.nav-list{
+.main-container {
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
 }
+
+.left-side-container {
+    width: 40%;
+}
+
+.right-side-container {
+   width: 60%;
+}
+
+.navigation {
+    width: 100%;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;                               /*убираем стандартные маркеры*/
+    background-color: rgb(218, 234, 38);
+    margin: 0;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+
+
+
+
