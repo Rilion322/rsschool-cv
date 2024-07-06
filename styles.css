@@ -1,4 +1,116 @@
-html{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+@font-face {
+    font-family: Roboto;
+    src: url(assets/fonts/Roboto-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color: rgb(218, 232, 25);
+    background-color: rgb(61, 59, 59);
+    margin: 0;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.left-side-container {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.right-side-container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.navigation {
+    width: 100%;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;                               /*убираем стандартные маркеры*/
+    background-color: rgb(218, 234, 38);
+    margin: 0;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    color:#a98804;
+}
+
+a:hover {
+    color:red;
+}
+
+.code-example {
+    display: flex;
+    color: black;
+    text-align: left;
+    background-color: rgb(187, 186, 186);
+    width: 300px;
+}
+
+.footer-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.myGithub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 100%; /*чтобы картинка растягивалась когда изменялся размер окна*/
+}
+
+.multiply {
+    font-size: 10px;
+    line-height: 15px;
+    white-space: pre;
+    margin-left: -120px;
 }
